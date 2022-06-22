@@ -25,21 +25,21 @@ button {
     box-shadow: 0 0 0 10px #005f73;
     color: #ffb703;
     text-shadow: 2px 1px 3px #005f73;
-    animation-name: borderShadow;
+    /* animation-name: borderShadow;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-    animation-fill-mode: alternate-reverse;
+    animation-fill-mode: alternate-reverse; */
 }
 
-@keyframes borderShadow {
+/* @keyframes borderShadow {
     0% {
         box-shadow: 0 0 0 0px #005f73;
     }
     100% {
         box-shadow: 0 0 0 10px #005f73;
     }
-}
+} */
 
 .set {
     display: flex;
@@ -85,4 +85,21 @@ footer > a {
 }
 *.l {
     background-image: url('./images/kick.png');
+}
+
+.pressed {
+ animation-name: buttonAnimation;
+ animation-duration: 0.2s;
+ animation-timing-function: linear;  
+}
+
+@keyframes buttonAnimation {
+    from {
+        font-size: 3rem;
+        opacity: 0.5;
+    }
+    to {
+        font-size: 3.5rem;
+        opacity: 1;
+    }
 }
