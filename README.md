@@ -1,2 +1,4 @@
-# Drum-Kit
-Angela Yu Web Dev Bootcamp challenge
+# Drum Kit Project using Vanilla JS 
+
+## Angela Yu Web Dev Bootcamp challenge
+
